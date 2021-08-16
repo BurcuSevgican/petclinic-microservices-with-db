@@ -44,7 +44,7 @@ services:
      - 8080:8080
     labels:
       kompose.image-pull-secret: "regcred"
-      kompose.service.expose: "petclinic04.bsdawsdevops.com"
+      kompose.service.expose: "petclinic 04.bsdawsdevops.com"
   tracing-server:
     image: openzipkin/zipkin
     environment:
